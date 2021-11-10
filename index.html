@@ -13,9 +13,40 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="bg-dark">
     <main>
-        <div id="login"></div>
+        <div class="container p-3 text-center">
+            <h4 id="login" class="text-center fw-bold text-light"></h4>
+            <h1 id="welcome" class="fw-bold p-3 text-light"></h1>
+
+            <div id="content" class="ms_hidden container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="ms_CPU_container ms_bg_lightpink text-center rounded-3 p-3">
+                            <h3>Dado CPU</h3>
+                            <div id="numCPU" class="fs-1"></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="ms_user_container ms_bg_lightblue text-center rounded-3 p-3">
+                            <h3>Dado Utente</h3>
+                            <div id="numUser" class="fs-1"></div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="ms_result-container ms_bg_lightcoral text-center rounded-3 p-3 my-3">
+                            <h2 id="result"></h2>
+                        </div>
+                    </div>
+                </div>
+                <button id="again" class="fs-4 p-3 rounded-3">Gioca ancora</button>
+            </div>
+
+
+
+        </div>
+
+
 
 
     </main>
